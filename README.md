@@ -16,6 +16,8 @@ It will also replace any images you have added class to, and make it something c
 
 ![alt text](images/murray-classy-point.gif "Bill Murray is classy")
 
+You don't even need the image folder - the .pngs are 64 bit encoded and the gif hotlinks to giphy. But they're there if you want it.
+
 ##Options
 
 addSomeClass also has a suite of options you can use to personalize how classy you want your website. Just enter them in an object when you call the method.
