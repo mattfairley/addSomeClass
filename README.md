@@ -44,7 +44,7 @@ $('Something to Class Up').addClass('A class to add', {
 
 ##More examples
 
-Check out [my site](http://www.mattfairley.com/addsomeclass) for an example of addSomeClass in the wild.
+Check out [my site](http://www.mattfairley.com/addSomeClass/) for an example of addSomeClass in the wild.
 
 ##License
 
