@@ -35,12 +35,14 @@ Parameter | Type | Default | Description
 
 ###A sample
 
-```$('Something to Class Up').addClass('A class to add', {
+```javascript
+$('Something to Class Up').addClass('A class to add', {
 	hat: 'bowler',
 	fanciest: true
-})```
+})
+```
 
-##Example
+##More examples
 
 Check out [my site](http://www.mattfairley.com/addsomeclass) for an example of addSomeClass in the wild.
 

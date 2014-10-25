@@ -2,46 +2,73 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>jQuery Plugin</title>
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Gentium+Book+Basic:400,400italic,700' rel='stylesheet' type='text/css'>
+	<title>addSomeClass.js</title>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script|Source+Code+Pro|Josefin+Sans:400,700|Gentium+Book+Basic:400,400italic,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 	<!-- favicon -->
 	<link rel="icon" href="images/favicon.png" type="image/x-icon"/>
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper clearfix">
 		<h1>Add Some Class.js</h1>
 		<h2>Make your javascript a little classier</h2>
-		<h3 data-has-class="true">Definitely a real thing and not fake</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quod autem qui mollitia modi ipsa! Optio odit repudiandae maxime libero est at, inventore commodi, qui doloribus tenetur fuga, repellat ex.</p>
-		<p>Laboriosam nemo amet aliquid tenetur, nostrum autem dignissimos et blanditiis optio aperiam ullam unde, impedit dolore obcaecati quod. Obcaecati enim, asperiores quo non quas ex voluptas veniam mollitia repellat quisquam.</p>
-		<p>Aperiam cupiditate aliquid tempore sapiente magnam dolor fuga excepturi ex soluta! Repellat, magnam facere laborum vel ea ullam maxime quaerat obcaecati error eligendi, quam maiores eius, libero reiciendis perferendis temporibus.</p>
-		<h3>Here is some more text in this 100% real website</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nisi ipsum natus eveniet, dolores ullam in similique doloremque maiores. Omnis sapiente in nam fuga libero aperiam, quas illum beatae dolore!</p>
-		<p>Hic, aut atque? Architecto voluptate veritatis eum animi deleniti sint quasi, voluptates at laudantium quas, molestias nihil perferendis facere praesentium atque voluptas. Placeat, rem! Tempore quidem at odio, cupiditate reiciendis.</p>
-		<div class="make-classy">
-			<p>Neque sequi voluptatum placeat repudiandae unde totam similique facere, illum molestias. Amet quae libero dolorem possimus omnis, praesentium, harum consectetur perspiciatis eius natus in earum tempora nobis, magnam accusantium ex.</p>
-			<p>Veritatis, eveniet repellendus! Nihil rerum voluptatum velit veniam, accusamus vitae similique earum eos. Modi aliquid quisquam impedit aspernatur, explicabo reprehenderit delectus nulla, dolorum quod quam vel est, adipisci, eveniet maxime.</p>
-		</div>
-		<p>Consequatur illo blanditiis aliquid earum nam accusantium ex  repudiandae qui modi quas, incidunt recusandae suscipit consectetur facilis distinctio aperiam quis maxime hold on to your butts vel et officia voluptatum ducimus quaerat! Saepe modi, voluptate.</p>
-		<p>Amet dignissimos, velit quas aperiam fugit ipsam numquam cum tempore quibusdam magni laboriosam quos voluptatum labore est reiciendis dolorem laborum consequuntur explicabo similique inventore aspernatur, quasi. Sit incidunt architecto optio!</p>
-		<h3>And finally, some other stuff. JK it's text</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, doloribus optio enim repellat tempore ipsa ab. Vero accusantium aspernatur ipsam unde optio. Aliquam tempora, officiis quo architecto quae asperiores non.</p>
-		<img src="http://placecage.com/c/200/200" alt="" class='make-classy'>
-		<p>Quasi reprehenderit excepturi cupiditate porro, ford nation ratione maxime qui quibusdam ex hic nulla? Numquam quo excepturi vitae repudiandae natus delectus aspernatur nemo, sapiente tenetur ad animi id inventore alias eligendi totam.</p>
-		<p>Eius quia veniam, enim rerum a recusandae, corporis, expedita, beatae Don Cherry ipsa sapiente aspernatur earum adipisci accusamus quam dolorem. Reiciendis architecto blanditiis perspiciatis ipsa delectus aspernatur consectetur culpa sapiente repellat expedita.</p>
-		<h3 class='make-classy'>And finally, some other stuff. JK it's text</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, doloribus optio enim repellat tempore ipsa ab. Vero accusantium aspernatur ipsam unde optio. Aliquam tempora, officiis quo architecto quae asperiores non.</p>
-		<p>Quasi reprehenderit excepturi cupiditate porro, Ford Nation ratione maxime qui quibusdam ex hic nulla? Numquam quo excepturi vitae repudiandae natus delectus aspernatur nemo, sapiente tenetur ad animi id inventore alias eligendi totam.</p>
-		<p>Eius quia veniam, enim rerum a recusandae, corporis, expedita, beatae ipsa sapiente aspernatur earum adipisci accusamus quam dolorem. Reiciendis architecto blanditiis perspiciatis ipsa delectus aspernatur consectetur culpa sapiente repellat expedita.</p>
-		<div class="make-classy">
-			<h3>And finally, some other stuff. JK it's text</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, doloribus optio enim repellat tempore ipsa ab. Vero accusantium aspernatur ipsam unde optio. Aliquam tempora, officiis quo architecto quae asperiores non.</p>
-			<p>Quasi reprehenderit excepturi cupiditate porro ratione maxime qui quibusdam ex hic nulla? Numquam quo excepturi vitae repudiandae natus delectus aspernatur nemo, sapiente tenetur ad animi id inventore alias eligendi totam.</p>
-			<p>Eius quia veniam, enim rerum a recusandae, corporis, expedita, beatae ipsa sapiente aspernatur earum adipisci accusamus quam dolorem. Reiciendis architecto blanditiis perspiciatis ipsa delectus aspernatur consectetur culpa sapiente repellat expedita.</p>
-		</div>
-		<div class="usage">
-			<h3>Usage: </h3>
+		<section class="example clearfix">
+			<div>
+				<p>Ever wish your website had a bit more of an aristocratic flair?</p>
+				<p>Now jQuery's .addClass function can do what it really should do: Add some class. No more slumming it with the working class websites of the internet. Set your site apart</p>
+			</div>
+			<div class="code" id="example-code">
+				<pre><code>
+$('#this-button').on('click'), function(){
+	$('#unclassy-element').addClass('this-should-be-classier')
+}
+				</code></pre>
+			</div>
+			<div class="button">
+				<button id="example1">Add some class</button>
+			</div>
+		</section>
+		<section class="example clearfix">
+			<div>
+				<h3>Dull images?</h3>
+				<p>addSomeClass.js can also add a more dignified touch to an image, turning your stock photography of business meetings into something a little more debonair.</p>
+				<div class="code">
+					<pre><code>
+$('#this-button').on('click', function(){
+	$('#unclassy-image').addClass('make-it-classy')
+});
+					</code></pre>
+				</div>
+			</div>
+			<div class="image">
+				<img src="http://lorempixel.com/320/320/business/" alt="" class='make-classy'>
+				<p class="dull">So dull.</p>
+				<button id="example2">Add some class</button>
+			</div>
+		</section>
+		<section class="example clearfix">
+			<div>
+				<h3>Not enough for you?</h3>
+				<p>Add some class has a full suite of options to make sure your site stays in the upper crust of society.</p>
+				<p>Just pass through some options (see the documentation on the <a href="https://github.com/mattfairley/addSomeClass">github page</a>)</p>
+			</div>
+			<div class="code" id="fanciest">
+				<pre><code>
+$('this-boring-block-of-code').addClass('much-classier-please'{
+	hat: 'tophat',
+	monocle: 'true',
+	bowtie: 'true',
+	mustache: 'true',
+	hatsize: '150'
+})
+				</code></pre>
+			</div>
+				<div class="button">
+					<button id="example3">Add some more class</button>
+				</div>
+		</section>
+		<section class="usage">
+			<h3>Usage:</h3>
 			<ol>
 			    <li>Include <strong>addSomeClass.js</strong> on your page
 			        <div class="code">
@@ -53,10 +80,18 @@
 			            $('div').addClass('example'); 
 			        </div>
 			    </li>
+			    <li>Add some <strong>options</strong> if you want: 
+			        <div class="code">
+			            $('div').addClass('example', {fanciest: true}); 
+			        </div>
+			    </li>
 			</ol>
-			<p>Get your non-classy hands on it at <a href="https://github.com/mattfairley/">github.com/mattfairley</a></p>
-		</div>
+			<p>Get your non-classy hands on it at <a href="https://github.com/mattfairley/addSomeClass">github.com/mattfairley</a> and bring some class to your sites.</p>
+		</section>
 	</div>
+	<footer>
+		<p>Made by <a href="http://mattfairley.com">Matt Fairley</a></p>
+	</footer>
 	<!-- scripts -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="js/addSomeClass.js"></script>

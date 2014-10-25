@@ -3,11 +3,18 @@ $(function() {
 		xPos: 70,
 		hatSize: 50
 	});
-    $('h3').addClass({
-    	hat: 'bowler',
-    	xPos: 5
+    $('#example1').on('click', function(){
+    	$('#example-code').addClass('this-should-be-classier');
     });
-    $('.make-classy').addClass({
-    	fanciest: true
-    });
+    $('#example2').on('click', function(){
+    	$('img.make-classy').addClass('now-its-classy');
+    	$('p.dull').text('So classy!');
+    })
+    $('#example3').on('click', function(){
+    	$('#fanciest').addClass('the-classiest',{
+    		fanciest: true,
+    		hatSize: 150
+    	})
+    })
+
 });
