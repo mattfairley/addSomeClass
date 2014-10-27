@@ -24,7 +24,7 @@ addSomeClass also has a suite of options you can use to personalize how classy y
 
 Parameter | Type | Default | Description
 --- | --- | --- | ---
-`hat` | string | `top hat` | Defines what type of hat you want. Currently supports `tophat` and `bowler`
+`hat` | string | `tophat` | Defines what type of hat you want. Currently supports `tophat` and `bowler`
 `monocle`| boolean | `false` | Adds a monocle to the overlay of the 'classy' object.
 `bowtie`| boolean | `false` | Adds a bowtie to the 'classy' object.
 `mustache`| boolean | `false` | Adds a mustache to the 'classy' object.
@@ -32,7 +32,7 @@ Parameter | Type | Default | Description
 `xPos` | number | `50` | The horizontal position of the hat (as a percentage).
 `hatSize` | number | `100` | How large you want the accessories to be. Based off an index of 100.
 `imagereplace` | boolean | `true` | Whether you want to replace images or not.
-`image` | string | `images/murray-classy-point.gif` | The image you want to replace other images with.
+`image` | string | `http://i.giphy.com/pNpONEEg3pLIQ.gif` | The path of the image you want to replace unclassy images with.
 
 
 ###A sample
