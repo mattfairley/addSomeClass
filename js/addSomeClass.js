@@ -127,13 +127,6 @@ $.fn.addSomeClass = function(originalAddClass, options){
 		this.attr('src', settings.image);
 	};
 
-	//preload & cache gif the first time this is called
-	$.preloadImages = function() {
-	    $("<img />").attr("src", settings.image);
-	  }
-	}
-	$.preloadImages();
-
 	return this
 }
 
