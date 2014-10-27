@@ -10,7 +10,7 @@ Just add addSomeClass after you bring in jQuery, like this:
 
 Then, `.addClass` with jQuery like you normally would, and voila: A much classier website, complete with top hats.
 
-![alt text](images/topHat.png "Some extra class")
+![alt text](images/topgat-small.png "Some extra class")
 
 It will also replace any images you have added class to, and make it something classier: Bill Murray in a tuxedo.
 
